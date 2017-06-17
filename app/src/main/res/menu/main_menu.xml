@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuOpenBackCamera"
+        android:title="Open Back-Facing Camera"
+        android:onClick="onMenuOpenBackCamera"
+        />
+
+    <item android:id="@+id/menuOpenFrontCamera"
+        android:title="Open Front-Facing Camera"
+        android:onClick="onMenuOpenFrontCamera"
+        />
+
+    <item android:id="@+id/menuCloseCamera"
+        android:title="Close Camera"
+        android:onClick="onMenuCloseCamera"
+        />
+
+
+    <item android:id="@+id/menuShowThumbnailForExistingPicture"
+        android:title="List Existing Pictures"
+        android:onClick="onMenuShowThumbnailForExistingPicture"
+        android:showAsAction="always"
+        />
+
+    <item android:id="@+id/menuExit"
+        android:title="Exit"
+        android:onClick="onExit"
+        android:icon="@android:drawable/ic_lock_power_off"/>
+</menu>
