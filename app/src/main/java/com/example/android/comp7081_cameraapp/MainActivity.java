@@ -100,6 +100,9 @@ public class MainActivity extends Activity
     public static String strFromDateFilter = null;
     public static String strToDateFilter = null;
 
+    //TEST
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState)
